@@ -19,6 +19,7 @@ public class HouseController {
 
     @RequestMapping("/houseList")
     public Object list(){
+        System.out.println(111);
         return service.getList();
     }
 
